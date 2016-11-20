@@ -1,0 +1,10 @@
+security:
+  user:
+    name: elastic
+    password: changeme
+
+zuul:
+  routes:
+    users:
+      path: "/**"
+      url: ${endpoint.url}/
