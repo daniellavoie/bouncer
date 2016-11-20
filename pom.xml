@@ -19,6 +19,16 @@
     <artifactId>bouncer</artifactId>
     
     <version>0.0.1-SNAPSHOT</version>
+    
+    <build>
+        <finalName>bouncer</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 	<distributionManagement>
 		<repository>
